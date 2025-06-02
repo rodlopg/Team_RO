@@ -905,7 +905,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.1
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 32e6a131134f94f7f962377a54b57baf, type: 2}
   m_BuildHeightMesh: 0
@@ -1724,6 +1724,7 @@ MonoBehaviour:
   volumeIntensity: 0.11
   isActive: 0
   activationKey: 0
+  objectTag: Player
   sourceColor: {r: 1, g: 0.015686274, b: 0.11478263, a: 1}
   isTrap: 1
   trapDuration: 1
