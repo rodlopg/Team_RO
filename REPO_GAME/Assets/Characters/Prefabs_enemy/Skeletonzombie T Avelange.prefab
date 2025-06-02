@@ -74,6 +74,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fa68422cab0248f4bc700b5a8656217, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4112245910914953293}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fa68422cab0248f4bc700b5a8656217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6220344441708981650}
   m_SourcePrefab: {fileID: 100100000, guid: 0fa68422cab0248f4bc700b5a8656217, type: 3}
 --- !u!1 &7892282441782451197 stripped
 GameObject:
@@ -116,9 +119,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoint: []
   waypointIndex: 0
+  scoreImprovementThreshold: 0.01
   idleDuration: 3
   noiseThreshold: 0.1
-  closeNoiseDistance: 10
   showDebug: 1
 --- !u!195 &4715942553231907261
 NavMeshAgent:
@@ -269,10 +272,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7892282441782451197}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -289,3 +292,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6220344441708981650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892282441782451197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f00d941a0deb04ebe7e97cc6645bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRange: 15
