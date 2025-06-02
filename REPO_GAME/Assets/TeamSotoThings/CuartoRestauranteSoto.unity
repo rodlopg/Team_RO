@@ -9114,6 +9114,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 686320992655854523, guid: f87da557b26493c49aa76f90b8898a73, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 631198914}
+    - target: {fileID: 686320992655854523, guid: f87da557b26493c49aa76f90b8898a73, type: 3}
+      propertyPath: eatSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f1508b6b15442346aaf7b9bdf264d3e, type: 3}
+    - target: {fileID: 686320992655854523, guid: f87da557b26493c49aa76f90b8898a73, type: 3}
+      propertyPath: beepSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c72a84321e1e8754d9c2d2bc04b4d2a9, type: 3}
+    - target: {fileID: 1614918725406704335, guid: f87da557b26493c49aa76f90b8898a73, type: 3}
+      propertyPath: MaxDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614918725406704335, guid: f87da557b26493c49aa76f90b8898a73, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5502365987942436051, guid: f87da557b26493c49aa76f90b8898a73, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.01
