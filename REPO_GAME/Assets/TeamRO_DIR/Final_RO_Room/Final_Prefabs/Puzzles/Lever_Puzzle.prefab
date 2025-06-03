@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3880631137278494746}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.4046993, y: -4.9136, z: 8.47649}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -641,7 +641,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <- 1/5
+  m_text: '<- 1/4
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8827df8794687cf42a00a39c400e9552, type: 2}
   m_sharedMaterial: {fileID: 5608202080528317625, guid: 8827df8794687cf42a00a39c400e9552, type: 2}
