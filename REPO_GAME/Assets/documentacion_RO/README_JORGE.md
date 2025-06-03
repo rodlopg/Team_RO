@@ -102,3 +102,7 @@ VFX property Binder - Es importante que el asset incluya este componente, que re
 ## Comentario: Los archivos de audio se encuentran en la carpeta Resources, subcarpeta Audio.
 
 ## Observacion: En el Inspector, en Audio Source no debe estar activado el cuadrito Loop.
+
+# Seccion 5: Realizar Secuencia Final
+
+La secuencia final es una cinematica en formato .mp4 con el nombre "SecuenciaFinal". No es asset, ni animacion. Sin embargo para la realizacion de esta, lo que hice para esta actividad, fue crear una escena llamada SecuenciaFinal y apartir de ella hice el video, luego lo edite en una aplicacion externa.
