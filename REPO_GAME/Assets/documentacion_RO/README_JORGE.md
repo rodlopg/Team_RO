@@ -54,20 +54,19 @@ Jorge Enrique Ruiz Liera
 
 # Seccion 2: Realizar secuencia inicial
 
-    La secuencia inicial es una cinematica en formato .mp4 con el nombre "SecuenciaInicial". No es asset, ni animacion. Sin embargo para la realizacion de esta, lo que hice para esta actividad, fue crear una escena llamada SecuenciaInicial y apartir de ella hice el video, luego lo edite en una aplicacion externa. La escena si incluye un pequeno script, pero su uso es meramente estetico.
+    La secuencia inicial es una cinematica en formato .mp4 con el nombre "SecuenciaInicial". No es asset, ni animacion. Sin embargo para la realizacion de esta, lo que hice para esta actividad, fue crear una escena llamada SecuenciaInicial y en ella inclui el video. La escena incluye un script.
 
 ## Scripts
 
-- **`BlinkingLight.cs`** - Controla el parpadeo de una luz en Unity.
+- **`VideoToScene.cs`** - Controla la secuencia de una escena a otra.
   Variables principales:
 
-  - tiempoEncendida: Tiempo que la luz permanece encendida (en segundos).
-  - tiempoApagada: Tiempo que la luz permanece apagada (en segundos).
-  - iniciarAutomaticamente: Si el parpadeo comienza automaticamente al iniciar.
+  - VideoPlayer: El objeto que se encarga de reproducir el video.
+  - nextSceneName: El nombre de la siguiente escena a continuacion.
 
-  Funcionalidad: Alterna el estado de un componente Light entre encendido y apagado segun los tiempos configurados.
+  Funcionalidad: Cuando el video termine de reproducirse la siguiente escena aparece.
 
-## Comentario: La escena Secuencia Inicial no tiene uso, pues no se incluira como parte de la secuencia de escenas. Aun asi, se podria reutilizar en el futuro.
+## Comentario: Asegurarse de colocar el nombre de la siguiente escena.
 
 # Seccion 3: Agregar efectos visuales al enemigo
 
@@ -105,4 +104,4 @@ VFX property Binder - Es importante que el asset incluya este componente, que re
 
 # Seccion 5: Realizar Secuencia Final
 
-La secuencia final es una cinematica en formato .mp4 con el nombre "SecuenciaFinal". No es asset, ni animacion. Sin embargo para la realizacion de esta, lo que hice para esta actividad, fue crear una escena llamada SecuenciaFinal y apartir de ella hice el video, luego lo edite en una aplicacion externa.
+La secuencia final es una cinematica en formato .mp4 con el nombre "SecuenciaFinal". No es asset, ni animacion. Sin embargo para la realizacion de esta, lo que hice para esta actividad, fue crear una escena llamada SecuenciaFinal y en ella inclui el video.

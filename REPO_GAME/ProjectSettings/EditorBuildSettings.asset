@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Photon/Scenes/escenaPrincipalConPhoton.unity
     guid: 7bd97ee61cd35fa47b25840d32aa2e45
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaInicial.unity
+    guid: e52041d713df1fa4889ba9fb2c91f7d5
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaFinal.unity
+    guid: bc4c3d983704c29438f6f780a58859da
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
