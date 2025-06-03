@@ -1,0 +1,796 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6911021015216755630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5333185329418223486}
+  m_Layer: 0
+  m_Name: DancingRats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5333185329418223486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911021015216755630}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.573908, y: -1.8405433, z: -0.2552185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2967824607660405564}
+  - {fileID: 3441502212332675253}
+  - {fileID: 7888511884969586029}
+  - {fileID: 2161624663110239425}
+  - {fileID: 479208236432505736}
+  - {fileID: 4856769622765296498}
+  - {fileID: 7837420644322427336}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &84658166351879267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.972906
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.022743285
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5237808
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6960514260202082872}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!4 &479208236432505736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 84658166351879267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1003649567145615666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 84658166351879267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6960514260202082872
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003649567145615666}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &1906460051310486314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09690857
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.007743286
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34278107
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7150905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0118690375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6989078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0057140994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.515
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.419
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 685431266997103212}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!1 &1636058464039509627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 1906460051310486314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &685431266997103212
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636058464039509627}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &2161624663110239425 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 1906460051310486314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2902593574735578974
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.800663
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1187432
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1299858
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0000008791683
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8439886178544498413}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!1 &2632772533765487119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 2902593574735578974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8439886178544498413
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2632772533765487119}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &3441502212332675253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 2902593574735578974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3361213354780628183
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.8839073
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.013743286
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.8627815
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4249593354352427649}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!1 &2478110562197875078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 3361213354780628183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4249593354352427649
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478110562197875078}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &2967824607660405564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 3361213354780628183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4966361257279503513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.972906
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.022743285
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2077789
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4651070620282811772}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!4 &4856769622765296498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 4966361257279503513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5200925920900481480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 4966361257279503513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4651070620282811772
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5200925920900481480}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &7706545988482255494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.215908
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0467434
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.3627815
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000009238719
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2451992915396922677}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!1 &7364035679883327447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 7706545988482255494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2451992915396922677
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364035679883327447}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &7888511884969586029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 7706545988482255494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7732300061704168995
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5333185329418223486}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.58458006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.58458
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58458006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7150905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0118690375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6989078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0057140994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.515
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.419
+      objectReference: {fileID: 0}
+    - target: {fileID: -2672319659625234353, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e544f55c513b96949a83d30cf97c0cea, type: 2}
+    - target: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      propertyPath: m_Name
+      value: rat@Snake Hip Hop Dance (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2281191703997110080}
+  m_SourcePrefab: {fileID: 100100000, guid: 040d3c4834984574684d06293639e97b, type: 3}
+--- !u!1 &7462407552611294066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 7732300061704168995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2281191703997110080
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7462407552611294066}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d6d54284376e0a4aa67c6f9d5788ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &7837420644322427336 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 040d3c4834984574684d06293639e97b, type: 3}
+  m_PrefabInstance: {fileID: 7732300061704168995}
+  m_PrefabAsset: {fileID: 0}
