@@ -430,6 +430,14 @@ public class EnemyNavigation : MonoBehaviour
         {
             if (source.isActive)
             {
+
+                // ignora la musica con tag ignorar
+                if (source.CompareTag("ignorar"))
+                {
+                    if (showDebug) Debug.Log("Ignoring music source: " + source.name);
+                    continue;
+                }
+
                 float distance = Vector3.Distance(transform.position, source.transform.position);
                 
                 // NUEVO: Solo considerar fuentes dentro del rango de detección
