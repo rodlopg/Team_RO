@@ -380,14 +380,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338270254}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.012565742, y: 0.76312953, z: -0.014845188, w: 0.6459529}
-  m_LocalPosition: {x: -29.86, y: 1.37, z: 39.37}
+  m_LocalRotation: {x: 0, y: 0.20623781, z: -0, w: -0.978502}
+  m_LocalPosition: {x: -32.514732, y: 7.239373, z: 37.371788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8858656441047076584}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 2.229, y: 99.507, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 1056.196, z: 0}
 --- !u!114 &1338270258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,6 +450,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338270257}
     m_Modifications:
+    - target: {fileID: 1453902523002313967, guid: d9d4642b5e1fd814fbbc688fc4c9c78a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1624388218947125079, guid: d9d4642b5e1fd814fbbc688fc4c9c78a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
@@ -488,6 +492,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1624388218947125079, guid: d9d4642b5e1fd814fbbc688fc4c9c78a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585731357408441245, guid: d9d4642b5e1fd814fbbc688fc4c9c78a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7208170398778978918, guid: d9d4642b5e1fd814fbbc688fc4c9c78a, type: 3}
@@ -588,10 +596,6 @@ PrefabInstance:
       propertyPath: spotLightObject
       value: 
       objectReference: {fileID: 7275910526456678431}
-    - target: {fileID: 506296580208873122, guid: e886e4356acd80f488e4f7b44102abfc, type: 3}
-      propertyPath: m_NavMeshData
-      value: 
-      objectReference: {fileID: 23800000, guid: c3767304ae2b03d42b3cd7878e0b1891, type: 2}
     - target: {fileID: 530472987372953042, guid: e886e4356acd80f488e4f7b44102abfc, type: 3}
       propertyPath: spotLightObject
       value: 
@@ -606,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 599124969}
     - target: {fileID: 2867443437873616615, guid: e886e4356acd80f488e4f7b44102abfc, type: 3}
       propertyPath: m_VersionIndex
-      value: 1639
+      value: 1648
       objectReference: {fileID: 0}
     - target: {fileID: 3094631724421012462, guid: e886e4356acd80f488e4f7b44102abfc, type: 3}
       propertyPath: spotLightObject
@@ -628,10 +632,6 @@ PrefabInstance:
       propertyPath: spotLightObject
       value: 
       objectReference: {fileID: 1776890563091999094}
-    - target: {fileID: 7125195177322707511, guid: e886e4356acd80f488e4f7b44102abfc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.81
-      objectReference: {fileID: 0}
     - target: {fileID: 7199498678608115227, guid: e886e4356acd80f488e4f7b44102abfc, type: 3}
       propertyPath: spotLightObject
       value: 
