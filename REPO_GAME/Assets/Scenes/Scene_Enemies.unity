@@ -2046,6 +2046,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1381411357}
     - target: {fileID: 816758368251613947, guid: 1ea2af71f07ce664dac251f17805d063, type: 3}
+      propertyPath: rooms.Array.data[0].hasSecondaryEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 816758368251613947, guid: 1ea2af71f07ce664dac251f17805d063, type: 3}
+      propertyPath: rooms.Array.data[1].hasSecondaryEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 816758368251613947, guid: 1ea2af71f07ce664dac251f17805d063, type: 3}
+      propertyPath: rooms.Array.data[2].hasSecondaryEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 816758368251613947, guid: 1ea2af71f07ce664dac251f17805d063, type: 3}
+      propertyPath: rooms.Array.data[3].hasSecondaryEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 816758368251613947, guid: 1ea2af71f07ce664dac251f17805d063, type: 3}
       propertyPath: 'rooms.Array.data[0].waypoints.Array.data[0]'
       value: 
       objectReference: {fileID: 947687281}

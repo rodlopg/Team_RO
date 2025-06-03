@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Photon/Scenes/escenaPrincipalConPhoton.unity
     guid: 7bd97ee61cd35fa47b25840d32aa2e45
+  - enabled: 1
+    path: Assets/TeamRO_DIR/RO_Script/RO_Scenes/RO_PuzzleScene.unity
+    guid: e3891b3c0f25cf14aaa04c881a8edcd8
+  - enabled: 1
+    path: Assets/Scenes/SecuenciaInicial.unity
+    guid: e52041d713df1fa4889ba9fb2c91f7d5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

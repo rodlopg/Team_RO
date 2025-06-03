@@ -3,45 +3,52 @@ using UnityEngine;
 
 public class AxisMover : MonoBehaviour
 {
+    // Enumerado para seleccionar el eje de movimiento
     public enum MoveAxis { X, Y, Z }
 
     [Header("Target Settings")]
     [Tooltip("Assign the object you want to move.")]
-    public Transform target;
+    public Transform target; // Objeto que se moverá
 
     [Header("Movement Settings")]
-    public MoveAxis axis = MoveAxis.Y;
-    public float offset = 0.25f;
-    public float moveSpeed = 0.1f;
-    public float holdTime = 0.1f;
-    public bool toggle = false;
+    public MoveAxis axis = MoveAxis.Y; // Eje seleccionado para el movimiento
+    public float offset = 0.25f; // Distancia del movimiento
+    public float moveSpeed = 0.1f; // Velocidad del movimiento
+    public float holdTime = 0.1f; // Tiempo de espera antes de volver (si no es toggle)
+    public bool toggle = false; // Modo toggle (alternar posición)
 
-    private bool moving = false;
-    private bool moved = false;
-    private Vector3 originalPos;
+    // Variables de estado
+    private bool moving = false; // Indica si está en movimiento
+    private bool moved = false; // Indica si está en posición movida (para modo toggle)
+    private Vector3 originalPos; // Guarda la posición original
 
     private void Start()
     {
+        // Deshabilitar si no hay target asignado
         if (target == null)
         {
-            Debug.LogError("AxisMover: No target assigned.");
             enabled = false;
             return;
         }
 
+        // Guardar posición original
         originalPos = target.localPosition;
     }
 
     private void Update()
     {
+        // Detectar clic derecho
         if (Input.GetMouseButtonDown(0)) // Right-click
         {
+            // Lanzar rayo desde la cámara
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
+                // Verificar si se hizo click en este objeto
                 if (hit.transform == transform)
                 {
                     Debug.Log("Right-clicked on: " + gameObject.name);
+                    // Iniciar movimiento si no está en proceso
                     if (!moving)
                     {
                         StartCoroutine(MoveSmooth());
@@ -51,6 +58,7 @@ public class AxisMover : MonoBehaviour
         }
     }
 
+    // Obtiene el vector de desplazamiento según el eje seleccionado
     private Vector3 GetOffsetVector()
     {
         switch (axis)
@@ -62,6 +70,7 @@ public class AxisMover : MonoBehaviour
         }
     }
 
+    // Corrutina para movimiento suave
     private IEnumerator MoveSmooth()
     {
         moving = true;
@@ -69,19 +78,21 @@ public class AxisMover : MonoBehaviour
         Vector3 startPos = target.localPosition;
         Vector3 endPos;
 
+        // Determinar dirección del movimiento (toggle o no)
         if (toggle && moved)
         {
             Debug.Log("Moving back");
-            endPos = originalPos;
+            endPos = originalPos; // Volver a posición original
             moved = false;
         }
         else
         {
             Debug.Log("Moving forward");
-            endPos = originalPos + GetOffsetVector();
+            endPos = originalPos + GetOffsetVector(); // Mover a nueva posición
             moved = true;
         }
 
+        // Animación de movimiento hacia adelante
         float elapsedTime = 0f;
         while (elapsedTime < moveSpeed)
         {
@@ -93,11 +104,12 @@ public class AxisMover : MonoBehaviour
 
         target.localPosition = endPos;
 
+        // Si no es toggle, esperar y volver a posición original
         if (!toggle)
         {
             yield return new WaitForSeconds(holdTime);
 
-            // Return to original position
+            // Animación de movimiento de regreso
             startPos = target.localPosition;
             endPos = originalPos;
 
